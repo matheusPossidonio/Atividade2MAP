@@ -31,6 +31,10 @@ public class ControleAcademico {
 	}
 
 
+	
+	public void cabecalho() {
+		System.out.printf("-----	BEM VINDO AO CONTROLE ACADEMICO DA %s. LOCALIZADA NA %s ------\n\n",this.nome,this.endereco);
+	}
 
 
 	public void addAluno(String nome) throws ControleAcademicoException{
